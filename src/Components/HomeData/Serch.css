@@ -1,0 +1,47 @@
+.container {
+    padding-top: 30px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .input {
+    padding: 5px 15px;
+    width: 300px;
+  }
+  
+  .book-list {
+    margin-top: 30px;
+  }
+  
+  .book {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eee;
+    /* display: flex; */
+    justify-content: space-between;
+  }
+  
+  .book-id {
+    color: red;
+    margin-right: 20px;
+  }
+  
+  .book-name {
+    color: blue;
+    margin-right: 20px;
+    font-size: larger;
+  }
+  
+  .book-dept {
+    color: rgb(255, 136, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large ;
+  }
+
+  .book-author {
+    color: rgb(204, 39, 163);
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
